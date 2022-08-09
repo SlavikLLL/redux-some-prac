@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Toogle from './components/Toogle';
+import Fetch from './components/Fetch';
+import CountRedux from './components/CountRedux';
+import StopWatch from './components/StopWatch/StopWatch';
+import Search from './components/Search/Search';
+import ReduxFetch from './components/ReduxFetch';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div className='App'>
+   <CountRedux />
+   
+   </div>
   );
 }
 

@@ -1,0 +1,12 @@
+.time{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.block-time{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid black;
+    margin-right: 0.7rem;
+}

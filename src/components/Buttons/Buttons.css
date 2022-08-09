@@ -1,0 +1,48 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.startButton{
+    background: white;
+    border: 1px solid green;
+    color: green;
+    font-size: 20px;
+}
+.startButton:hover{
+    background-color: green;
+    color:white;
+}
+.stopButton{
+    background: white;
+    border: 1px solid red;
+    color: red;
+    font-size: 20px;
+    margin-right: 1rem;
+    
+}
+.stopButton:hover{
+    background-color: red;
+    color:white;
+}
+.resetButton{
+    background: white;
+    border: 1px solid yellow;
+    color: yellow;
+    font-size: 20px;
+    
+}
+.resetButton:hover{
+    background-color: yellow;
+    color:white;
+}
+.resumeButton{
+    background: white;
+    border: 1px solid purple;
+    color: purple;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.resumeButton:hover{
+    background-color: purple;
+    color: white;
+}
